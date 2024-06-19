@@ -115,7 +115,7 @@ def settings():
 
 def main():
     settings()
-    st.title("Job Frequency Analysis")
+    st.title("Wild Analytics Dashboard")
     chart_type = st.sidebar.selectbox("Select Chart Type", ["Top Line"])
 
     if chart_type == "Top Line":
