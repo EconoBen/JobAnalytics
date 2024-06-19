@@ -30,8 +30,8 @@ def metrics(freq_df: pl.DataFrame, agg_df: pl.DataFrame):
 
     # Display metrics
     col1, col2, col3 = st.columns(3)
-    col1.metric("Total Number of Jobs", total_jobs)
-    col2.metric("Average Jobs Per Week", round(avg_jobs_per_week, 2))
+    col1.metric("Jobs Attempted", total_jobs)
+    col2.metric("Average Jobs Per Week", int(round(avg_jobs_per_week, 0)))
 
     # Ensure completion and abandon counts are numeric before rounding
     completion_count = agg_df["Completion Count"].sum()
@@ -41,6 +41,24 @@ def metrics(freq_df: pl.DataFrame, agg_df: pl.DataFrame):
 
     col3.metric(
         "Completion/Abandon ratio",
+        f"{ratio} : 1",
+    )
+
+    # Determine the most popular job type from freq_df
+
+    job_popularity = freq_df.groupby("JobType").count().sort("count", descending=True)
+    most_popular_job_type = job_popularity.select(pl.col("JobType"))[0, 0]
+    least_popular_job = job_popularity.select(pl.col("JobType"))[-1, -1]
+
+    # Additional metrics
+    col4, col5, col6 = st.columns(3)
+    col4.metric("Most Popular Job Type", most_popular_job_type)
+    col5.metric("Least Popular Job Type", least_popular_job)
+
+    ratio = int(round(job_popularity["count"][0] / job_popularity["count"][-1]))
+
+    col6.metric(
+        "Most/Least Popular Ratio",
         f"{ratio} : 1",
     )
 
@@ -56,7 +74,7 @@ def main():
     page = st.sidebar.selectbox("Select Page", ["Top Line", "Job Type Analytics"])
 
     if page == "Top Line":
-        st.title("Top Line Analysis")
+        st.title("Job Analytics")
         freq_df = read_data("data/WildRP Job Data - Raw Data.csv")
         agg_df = read_data("data/WildRP_job_data_values_only.csv")
         metrics(freq_df, agg_df)
