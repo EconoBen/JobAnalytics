@@ -30,7 +30,7 @@ def metrics(freq_df: pl.DataFrame, agg_df: pl.DataFrame):
 
     # Display metrics
     col1, col2, col3 = st.columns(3)
-    col1.metric("Jobs Attempted", total_jobs)
+    col1.metric("Total Jobs Attempted", total_jobs)
     col2.metric("Average Jobs Per Week", int(round(avg_jobs_per_week, 0)))
 
     # Ensure completion and abandon counts are numeric before rounding
