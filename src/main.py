@@ -1,74 +1,11 @@
-import plotly.express as px
 import polars as pl
 import streamlit as st
+from analytics import job_type_analytics
+from topline import frequency
 
 
 def read_data(path: str) -> pl.DataFrame:
     return pl.read_csv(path, try_parse_dates=False, has_header=True)
-
-
-def frequency(df: pl.DataFrame):
-    st.header("Job Frequency")
-
-    df = df.with_columns(
-        [
-            pl.col("JobStarted").cast(pl.Utf8),
-            pl.col("JobEnded").cast(pl.Utf8),
-            pl.col("JobType").cast(pl.Utf8),
-        ]
-    )
-    df = df.with_columns(
-        [
-            pl.col("JobStarted").str.strptime(pl.Datetime, "%Y-%m-%d %H:%M:%S"),
-            pl.col("JobEnded").str.strptime(pl.Datetime, "%Y-%m-%d %H:%M:%S"),
-        ]
-    )
-
-    job_freq = (
-        df.groupby(df["JobStarted"].dt.date())
-        .count()
-        .rename({"count": "Job Frequency"})
-    )
-
-    job_freq = (
-        df.groupby([pl.col("JobStarted").dt.date(), "JobType"])
-        .count()
-        .rename({"count": "Job Frequency"})
-    )
-
-    fig = px.bar(
-        job_freq.to_pandas(),
-        x="JobStarted",
-        y="Job Frequency",
-        color="JobType",
-        labels={"Job Frequency": "Job Frequency", "JobStarted": "Job Started"},
-    )
-    fig.update_layout(
-        autosize=False,
-        width=1000,
-        height=600,
-        margin=dict(l=40, r=40, t=40, b=40),
-        paper_bgcolor="white",
-        plot_bgcolor="white",
-        xaxis=dict(
-            showline=True,
-            showgrid=False,
-            showticklabels=True,
-            linecolor="black",
-            linewidth=2,
-        ),
-        yaxis=dict(
-            showline=True,
-            showgrid=True,
-            showticklabels=True,
-            linecolor="black",
-            linewidth=2,
-        ),
-        font=dict(family="Arial", size=12, color="black"),
-    )
-
-    # Display the chart
-    st.plotly_chart(fig)
 
 
 def metrics(freq_df: pl.DataFrame, agg_df: pl.DataFrame):
@@ -115,14 +52,19 @@ def settings():
 
 def main():
     settings()
-    st.title("Wild Analytics Dashboard")
-    chart_type = st.sidebar.selectbox("Select Chart Type", ["Top Line"])
+    st.sidebar.title("Wild Analytics Dashboard")
+    page = st.sidebar.selectbox("Select Page", ["Top Line", "Job Type Analytics"])
 
-    if chart_type == "Top Line":
-        freq_df: pl.DataFrame = read_data("data/WildRP Job Data - Raw Data.csv")
-        agg_df: pl.DataFrame = read_data("data/WildRP_job_data_values_only.csv")
+    if page == "Top Line":
+        st.title("Top Line Analysis")
+        freq_df = read_data("data/WildRP Job Data - Raw Data.csv")
+        agg_df = read_data("data/WildRP_job_data_values_only.csv")
         metrics(freq_df, agg_df)
         frequency(freq_df)
+    elif page == "Job Type Analytics":
+        st.title("Job Type Analytics")
+        df = read_data("data/WildRP Job Data - Raw Data.csv")
+        job_type_analytics(df)
 
 
 if __name__ == "__main__":
