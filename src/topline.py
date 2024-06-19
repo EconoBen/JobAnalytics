@@ -26,7 +26,7 @@ color_map = {
 
 
 def frequency(df: pl.DataFrame):
-    st.header("Job Frequency")
+    st.header("Job Frequency by Type")
 
     df = df.with_columns(
         [
