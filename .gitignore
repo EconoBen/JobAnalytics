@@ -1,3 +1,5 @@
 .venv
-/data
-
+!/data/WildRP Job Data - Raw Data.csv
+data/WildRP Job Data - Raw Data.csv:Zone.Identifier
+data/WildRP_job_data_values_only.csv
+data/WildRP_job_data_values_only.csv:Zone.Identifier
