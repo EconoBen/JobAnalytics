@@ -24,8 +24,6 @@ def create_leaderboard_plot(data: DataFrame):
 
     df["CharacterId"] = df["CharacterId"].astype(str)
 
-    df = df.sort_values(by="len", ascending=False)
-
     fig = px.bar(
         df,
         x="len",
