@@ -19,34 +19,40 @@ def load_and_process_data() -> DataFrame:
     return joined_data
 
 
-def create_plot(data: DataFrame):
-    fig = px.scatter(
-        data.to_pandas(),
-        x="JobTemplateId",
+def create_leaderboard_plot(data: DataFrame):
+    df = data.to_pandas()
+
+    df["CharacterId"] = df["CharacterId"].astype(str)
+
+    df = df.sort_values(by="len", ascending=False)
+
+    fig = px.bar(
+        df,
+        x="len",
         y="JOB",
-        title="Task Analytics",
-        labels={"JobTemplateId": "Job Template ID", "JOB": "Job"},
+        color="CharacterId",
+        orientation="h",
+        title="Job Leaderboard",
+        labels={"len": "Count of Jobs", "JOB": "Job"},
         template="plotly_white",
     )
+
     fig.update_layout(
         title_font_size=20,
         title_x=0.5,
         xaxis_title_font_size=15,
         yaxis_title_font_size=15,
-        showlegend=False,
+        showlegend=True,
         margin=dict(l=20, r=20, t=50, b=20),
         plot_bgcolor="white",
     )
     fig.update_xaxes(showgrid=True, gridwidth=0.5, gridcolor="lightgray")
     fig.update_yaxes(showgrid=True, gridwidth=0.5, gridcolor="lightgray")
 
-    return fig
+    st.plotly_chart(fig)
 
 
-def job_type_analytics():
-    df = pl.read_csv(
-        "data/WildRP Job Data - Raw Data.csv", try_parse_dates=False, has_header=True
-    )
+def job_type_analytics(df: DataFrame, joined_data: DataFrame):
     df = df.with_columns(
         [
             pl.col("JobStarted").cast(pl.Utf8),
@@ -73,8 +79,4 @@ def job_type_analytics():
     st.plotly_chart(fig2)
 
     # Second Chart
-    data = load_and_process_data()
-
-    fig = create_plot(data)
-
-    st.plotly_chart(fig)
+    create_leaderboard_plot(joined_data)

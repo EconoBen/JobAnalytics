@@ -8,6 +8,23 @@ def read_data(path: str) -> pl.DataFrame:
     return pl.read_csv(path, try_parse_dates=False, has_header=True)
 
 
+def join_data(raw_df: pl.DataFrame, agg_df: pl.DataFrame) -> pl.DataFrame:
+    value_data = (
+        agg_df.rename({"": "JOB"})
+        .filter(pl.col("JOB").is_not_null())
+        .select(pl.col(["JobTemplateId", "JOB"]))
+    )
+
+    joined_data = value_data.join(raw_df, on="JobTemplateId", how="inner")
+    joined_data = (
+        joined_data.group_by(["CharacterId", "JOB"])
+        .len()
+        .sort("len", descending=True)
+        .head(10)
+    )
+    return joined_data
+
+
 def metrics(freq_df: pl.DataFrame, agg_df: pl.DataFrame):
     freq_df = freq_df.with_columns(
         [
@@ -71,17 +88,20 @@ def settings():
 def main():
     settings()
     st.sidebar.title("Wild Analytics Dashboard")
-    page = st.sidebar.selectbox("Select Page", ["Top Line", "Job Type Analytics"])
+    page = st.sidebar.selectbox("Select Page", ["Top Line", "Job Analytics"])
+
+    raw_df = read_data("data/WildRP Job Data - Raw Data.csv")
+    agg_df = read_data("data/WildRP_job_data_values_only.csv")
 
     if page == "Top Line":
         st.title("Top Line Analytics")
-        freq_df = read_data("data/WildRP Job Data - Raw Data.csv")
-        agg_df = read_data("data/WildRP_job_data_values_only.csv")
-        metrics(freq_df, agg_df)
-        frequency(freq_df)
+
+        metrics(raw_df, agg_df)
+        frequency(raw_df)
     elif page == "Job Analytics":
         st.title("Job Analytics")
-        job_type_analytics()
+
+        job_type_analytics(raw_df, join_data(raw_df, agg_df))
 
 
 if __name__ == "__main__":
