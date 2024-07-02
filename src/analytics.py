@@ -43,7 +43,10 @@ def create_plot(data: DataFrame):
     return fig
 
 
-def job_type_analytics(df: pl.DataFrame):
+def job_type_analytics():
+    df = pl.read_csv(
+        "data/WildRP Job Data - Raw Data.csv", try_parse_dates=False, has_header=True
+    )
     df = df.with_columns(
         [
             pl.col("JobStarted").cast(pl.Utf8),

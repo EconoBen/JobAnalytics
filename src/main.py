@@ -2,7 +2,6 @@ import polars as pl
 import streamlit as st
 from analytics import job_type_analytics
 from topline import frequency
-from task_analytics import task_analytics
 
 
 def read_data(path: str) -> pl.DataFrame:
@@ -80,14 +79,9 @@ def main():
         agg_df = read_data("data/WildRP_job_data_values_only.csv")
         metrics(freq_df, agg_df)
         frequency(freq_df)
-    elif page == "Task Analytics":
-        st.title("Task Analytics")
-        df = read_data("data/WildRP Job Data - Raw Data.csv")
-        task_analytics(df)
-    elif page == "Job Type Analytics":
-        st.title("Job Type Analytics")
-        df = read_data("data/WildRP Job Data - Raw Data.csv")
-        job_type_analytics(df)
+    elif page == "Job Analytics":
+        st.title("Job Analytics")
+        job_type_analytics()
 
 
 if __name__ == "__main__":
