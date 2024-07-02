@@ -4,8 +4,6 @@ import streamlit as st
 
 
 def job_type_analytics(df: pl.DataFrame):
-    st.header("Job Type Analytics")
-
     df = df.with_columns(
         [
             pl.col("JobStarted").cast(pl.Utf8),

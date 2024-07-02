@@ -1,0 +1,2253 @@
+[
+    {
+        "INDEX": 1,
+        "JOB": "Bring a Crate of 5 Bank Bonds to two stops.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 2,
+        "JOB": "Bring 10 boiled potatoes to the Valentine church.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 3,
+        "JOB": "Bring crates of 5 Bank Bonds to three stops.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 4,
+        "JOB": "Help Drive 3 Bovine to Hanging Dog Ranch.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 1
+    },
+    {
+        "INDEX": 5,
+        "JOB": "Help drive 3 Bovine to McFarlane Ranch.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 1
+    },
+    {
+        "INDEX": 6,
+        "JOB": "10 Chopped Wood in Crates needed at Four locations starting at Manteca Falls.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 7,
+        "JOB": "Bring 2 Ram Carcasses to Colter.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 8,
+        "JOB": "10 Units of Chopped Wood needed at Fort Wallace posthaste!",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 9,
+        "JOB": "Deliver 3 Rats to the Bridge.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 10,
+        "JOB": "Help Drive 3 Cattle to Emerald Ranch.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 1
+    },
+    {
+        "INDEX": 11,
+        "JOB": "4 Customers are requesting delivery of Small Logs.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 12,
+        "JOB": "Deliver 2 Gold Bars in crates to 4 locations.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 13,
+        "JOB": "Deliver 3 Scalloped Potatoes to Hotbox 2.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 14,
+        "JOB": "Deliver 3 Gold Bars to the Gaptooth Moonshine Still.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 15,
+        "JOB": "Deliver 3 Gold Bars in crates to 3 locations.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 16,
+        "JOB": "Bring 5 Pheasant Carcasses to the Valentine Butcher.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 17,
+        "JOB": "Help Drive 3 Cattle to Beecher's Hope.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 1
+    },
+    {
+        "INDEX": 18,
+        "JOB": "Bring 3 Cups of Hot Chocolate to the Armadillo Medical Office.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 19,
+        "JOB": "Deliver 5 Tarnished Rings to the Bridge.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 20,
+        "JOB": "Haul 20 Units of Coal to Armadillo.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 21,
+        "JOB": "Deliver 10 Corn On The Cob to the Armadillo General Store.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 22,
+        "JOB": "Deliver Crates of 10 Chopped Wood each to 3 locations throughout New Austin.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 23,
+        "JOB": "Deliver fine northern Small Logs to Four customers between Ambarino and Blackwater.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 24,
+        "JOB": "Seven customers in the East are awaiting delivery of Small Logs.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 25,
+        "JOB": "Strawberry to Benedict Point. Make Six deliveries of Small Logs.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 26,
+        "JOB": "4 Deliveries of Small Logs needed in the New Austin area.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 27,
+        "JOB": "Drop off crates with 7 gold bars each to four customers.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 28,
+        "JOB": "Bring Crates of 5 Bank Bonds to three stops.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 29,
+        "JOB": "Deliver 2 Gold Bars in crates to 3 locations.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 30,
+        "JOB": "Drop off a crate containing 4 Gold Bars at 4 locations.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 31,
+        "JOB": "Deliver 2 crated Gold Bars to two locations.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 32,
+        "JOB": "Drop off crates containing 8 Gold Bars at 4 locations.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 33,
+        "JOB": "Bring 2 Turkey Carcasses to the butcher in Strawberry.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 34,
+        "JOB": "Bring 2 Turkey Carcasses to the butcher in Valentine.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 35,
+        "JOB": "Bring 3 Iguana Carcasses to Thieves Landing.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 36,
+        "JOB": "Drive 3 Cattle to Pronghorn Ranch.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 1
+    },
+    {
+        "INDEX": 37,
+        "JOB": "Help drive 3 Bovine to Carmody Dell.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 1
+    },
+    {
+        "INDEX": 38,
+        "JOB": "Help Drive 3 Cattle to the Scratching Post.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 1
+    },
+    {
+        "INDEX": 39,
+        "JOB": "Help Drive 3 Cattle to Ridgewood Farm.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 1
+    },
+    {
+        "INDEX": 40,
+        "JOB": "Bring 6 Lassos to the Treehouse.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 41,
+        "JOB": "Drop off Crates of 10 Oranges at 9 customers from east to west.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 42,
+        "JOB": "Deliver 5 crated Moonshine to 2 places.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 43,
+        "JOB": "Bring 8 servings of Wojabi Berry Sauce to the Bastille in Saint Denis.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 44,
+        "JOB": "15 units of Chopped Wood in Crates to be delivered to Five locations from Valentine to Saint Denis.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 45,
+        "JOB": "Deliver 2 Gold Bars in crates to 2 locations.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 46,
+        "JOB": "Drop off a crate containing 8 gold bars in four locations.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 47,
+        "JOB": "Deliver 15 crated Moonshine to 5 customers, quick as lightning!",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 48,
+        "JOB": "Deliver 15 Crated Bottles of Milk to 4 customers from Armadillo to Strawberry.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 49,
+        "JOB": "Crates of 15 Oranges each needed for 3 customers heading west.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 50,
+        "JOB": "Crates of 25 Oranges each needed for 3 customers between New Hanover and West Elizabeth.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 51,
+        "JOB": "Deliver 10 Chicken Tacos to Armadillo.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 52,
+        "JOB": "Deliver 10 Churros to Armadillo.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 53,
+        "JOB": "Planks to be delivered to 3 locations.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 54,
+        "JOB": "Deliver 2 Gold Bars in a crate to 3 locations.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 55,
+        "JOB": "Deliver 2 Gold Bars in a crate to 4 locations.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 56,
+        "JOB": "Deliver 20 Bottles of Milk to the Armadillo General Store.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 57,
+        "JOB": "Deliver 3 Gold Bars to Gaptooth.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 58,
+        "JOB": "Deliver Planks to Van Horn and Saint Denis.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 59,
+        "JOB": "Deliver 8 Gold Bars in crates to 2 locations.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 60,
+        "JOB": "Bring Crates of 20 Bank Bonds to three stops.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 61,
+        "JOB": "Crates of 20 Oranges each needed for 4 customers between New Hanover and West Elizabeth.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 62,
+        "JOB": "Bring 20 Bottles of Milk to the Café Balzac in St. Denis.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 63,
+        "JOB": "Bring 3 Cups of Hot Chocolate to the Rhodes Medical Office.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 64,
+        "JOB": "Deliver 3 Gold Bars in crates to 2 locations.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 65,
+        "JOB": "Drop off crates containing 3 Gold Bars at 2 different locations.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 66,
+        "JOB": "Bring crates containing 20 Bank Bonds to four destinations.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 67,
+        "JOB": "Bring 10 Rabbit Carcasses to the butcher in Saint Denis.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 68,
+        "JOB": "Crates of 20 Oranges each needed for 4 customers in Roanoke.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 69,
+        "JOB": "Deliver 25 Wood Shavings to the Van Horn Fishmonger.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 70,
+        "JOB": "5 Wedges of Cheese Needed at Blackwater General Store.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 71,
+        "JOB": "Deliver 5 bottles of Moonshine to the Rhodes Parlour House.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 72,
+        "JOB": "Deliver Planks to Adler and Pronghorn Ranches.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 73,
+        "JOB": "Deliver 3 Gold Bars in crates to Cairn Lake and Adler Ranch.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 74,
+        "JOB": "Bring 2 Pheasant Carcasses to the Butcher in Saint Denis.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 75,
+        "JOB": "Bring 2 Turkey Carcasses to the butcher in Rhodes.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 76,
+        "JOB": "Bring 2 Turkey Carcasses to the butcher in Blackwater.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 77,
+        "JOB": "Deliver 20 Crated Oranges to 4 locations.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 78,
+        "JOB": "Deliver Ice Blocks to 6 customers.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 79,
+        "JOB": "Deliver Small Logs to 5 Customers.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 80,
+        "JOB": "Bring 3 Gizzards to the General Store in Valentine.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 81,
+        "JOB": "Bring 3 Gizzards to the Blackwater Saloon.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 82,
+        "JOB": "Bring 5 Boiled Potatoes to the Haberdashery in Colter.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 83,
+        "JOB": "Bring 5 Boiled Potatoes to the General Store in Tumbleweed.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 84,
+        "JOB": "Bring 6 Cooked Poultry with Oregano to the church in Rhodes.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 85,
+        "JOB": "Bring 6 Cooked Poultry with Oregano to Owanjila.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 86,
+        "JOB": "Bring 6 Cooked Poultry with Oregano to Benedict Point.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 87,
+        "JOB": "Bring 8 Corn on the Cob to Doyle's Tavern in Saint Denis.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 88,
+        "JOB": "Bring 8 Corn on the Cob to the church in Saint Denis.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 89,
+        "JOB": "Bring 3 Gift Boxes to Beecher's Hope near Blackwater.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 90,
+        "JOB": "Bring 3 Leather Strips to the Strawberry Lodge.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 91,
+        "JOB": "Bring a Jewelry Box to a House Near Valentine.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 92,
+        "JOB": "Bring 15 Gold Pebbles to the Watchmaker in St. Denis.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 93,
+        "JOB": "5 customers await delivery of Logs.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 94,
+        "JOB": "Delivery Small Logs to 5 eager customers.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 95,
+        "JOB": "Deliver Ice Blocks to four destinations. Final stop Blackwater.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 96,
+        "JOB": "Bring 1 Cut Onyx to the Fort to be shipped to a mysterious buyer.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 97,
+        "JOB": "Four customers across Roanoke & Cumberland are expecting Small Logs.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 98,
+        "JOB": "40 Units of Chopped Wood in Crates to be delivered to 2 locations in the Northeast.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 99,
+        "JOB": "Deliver 5 Potato Soups to the Mess Hall.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 100,
+        "JOB": "Deliver 5 Bank Bonds to the Sea of Coronado.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 101,
+        "JOB": "Deliver Ice Blocks to four businesses and homes across Saint's Crossing.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 102,
+        "JOB": "Deliver Planks to 4 customers.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 103,
+        "JOB": "Deliver 20 Oranges in crates to Caliga Hall and Valentine Saloon.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 104,
+        "JOB": "Flatneck to the Bayou. Six deliveries of Small Logs needed.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 105,
+        "JOB": "Bring Crates of 5 Bank Bonds to three stops.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 106,
+        "JOB": "Bring 2 Ringneck Pheasant Carcasses to the butcher in Wapiti Village.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 107,
+        "JOB": "Drop off crates of 15 Oranges at 5 customers.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 108,
+        "JOB": "Deliver 20 units of Coal to Riggs Station.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 109,
+        "JOB": "Bring Crates of 5 Bank Bonds to four stops.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 110,
+        "JOB": "Bring Crates of 15 Bank Bonds to four stops.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 111,
+        "JOB": "Deliver Small Logs to 6 customers. Last stop Tumbleweed.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 112,
+        "JOB": "Bring 3 Gift Boxes to the Mayor's Manor in St. Denis.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 113,
+        "JOB": "Bring 10 servings of French Bread to the Saint Denis Soup Kitchen.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 114,
+        "JOB": "Drop 5 Rats 'round back of the Barber.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 115,
+        "JOB": "Deliver 1 Gold Bar to the ship at Thieves Landing.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 116,
+        "JOB": "Bring 2 Armadillo Carcasses to the Blackwater Butcher.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 117,
+        "JOB": "5 Hearty Bowls of Potato Soup to be brought to the Valentine Church.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 118,
+        "JOB": "5 Bundles of Brownies to be delivered to the Valentine Church.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 119,
+        "JOB": "Deliver 3 Gold Bars to the Abandoned Mansion near Van Horn.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 120,
+        "JOB": "Deliver a Small Log to Pronghorn Ranch and the Strawberry Workshop.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 121,
+        "JOB": "Deliver Planks to the Village of Wapiti, Grizzlies Watchtower, and Fort Brennand.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 122,
+        "JOB": "Deliver Ice Blocks to four destinations. Final stop Caliga Hall.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 123,
+        "JOB": "Deliver 10 Bottles of Milk to 4 Customers from Armadillo to Blackwater.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 124,
+        "JOB": "Deliver Ice Blocks to six destinations. Final stop Manzanita Post.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 125,
+        "JOB": "Bring 2 Turkey Carcasses to the butcher in Saint Denis.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 126,
+        "JOB": "Bring 3 Gizzards to the Welcome Center in Strawberry.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 127,
+        "JOB": "Bring 8 Servings of Wojabi Berry Sauce to Doyle's Tavern in Saint Denis.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 128,
+        "JOB": "Bring 8 servings of Wojabi Berry Sauce to the camp in Rhodes.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 129,
+        "JOB": "Bring 5 Boiled Potatoes to the Taxidermy House in Strawberry.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 130,
+        "JOB": "Bring 5 Boiled Potatoes to the Caravan near Blackwater.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 131,
+        "JOB": "Bring 2 Berry Pies to the Welcome Center in Strawberry.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 132,
+        "JOB": "Bring 8 Corn on the Cob to the Haberdashery in Colter.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 133,
+        "JOB": "Bring 8 Corn on the Cob to Armadillo.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 134,
+        "JOB": "Bring 8 Corn on the Cob to the General Store in Tumbleweed.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 135,
+        "JOB": "Bring 3 Gift Boxes to a Small Cabin Near Owanjila.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 136,
+        "JOB": "Deliver 10 Units of Coal to the Armadillo Sheriff's Office.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 137,
+        "JOB": "Bring 3 Gift Boxes to the Cabin near Del Lobo Rock.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 138,
+        "JOB": "Bring 2 Pieces of Junk to a House in St. Denis.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 139,
+        "JOB": "Bring 5 Mint Chocolate Candies to a Cabin in Big Valley.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 140,
+        "JOB": "Bring 3 Cups of Hot Chocolate to the Strawberry Medical Office.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 141,
+        "JOB": "Deliver Ice Blocks to three businesses and homes across Saint's Crossing.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 142,
+        "JOB": "Bring 1 Rat to the Bridgehouse to prove you cleared them.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 143,
+        "JOB": "Deliver Ice Blocks to four destinations. Final stop Tumbleweed.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 144,
+        "JOB": "Help Drive 3 Cattle from Carmody Dell to Hill Haven.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 1
+    },
+    {
+        "INDEX": 145,
+        "JOB": "3 Deliveries of Small Logs needed in the New Hanover area.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 146,
+        "JOB": "Bring a Diamond to the Warden's Office.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 147,
+        "JOB": "Deliver 50 gatherings of Dirt and Pebbles to Armadillo.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 148,
+        "JOB": "Help Drive 3 Cattle to Pleasance Homestead.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 1
+    },
+    {
+        "INDEX": 149,
+        "JOB": "Deliver Crates of 10 Oranges Each to Van Horn and Annesburg.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 150,
+        "JOB": "Bring 3 Gift Boxes to the Wheat Farm near Emerald Ranch.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 151,
+        "JOB": "Deliver 1 Scalloped Potato to the Mess Hall.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 152,
+        "JOB": "Deliver 5 Bank Bonds to the Annesburg Freight Dropoff.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 153,
+        "JOB": "Deliver 2 Gold Bars to mansion near Van Horn.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 154,
+        "JOB": "Haul Ice Blocks to four stops ending in Van Horn.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 155,
+        "JOB": "10 Milk Bottles in crates needed at 2 locations to the south.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 156,
+        "JOB": "Bring Crates of 25 Bank Bonds to three stops.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 157,
+        "JOB": "5 Customers requesting crates of 15 oranges each.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 158,
+        "JOB": "Deliver 30 pieces of Chopped Wood to Armadillo.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 159,
+        "JOB": "Six locations in need of 10 Crated Chopped Wood each.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 160,
+        "JOB": "20 Units of Chopped Wood, securely Crated, to be delivered to Five customers due south.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 161,
+        "JOB": "Deliver Ice Blocks to four destinations. Final stop Pronghorn Ranch.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 162,
+        "JOB": "8 Drop-Offs of 10 Bottles of Milk in Crates.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 163,
+        "JOB": "Deliver Ice Blocks to the train stations at Valentine and Emerald Ranch.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 164,
+        "JOB": "Deliver Ice Blocks to 5 customers from Armadillo to Van Horn.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 165,
+        "JOB": "Deliver Planks to 3 customers in the East.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 166,
+        "JOB": "Deliver Small Logs to Hanging Dog, Valentine, Cornwall Kerosene & Tar, and Emerald Ranch.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 167,
+        "JOB": "Bring 2 Adult Gator Carcasses to the butcher in Saint Denis.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 168,
+        "JOB": "Help Drive 3 Cattle to Downe's Ranch.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 1
+    },
+    {
+        "INDEX": 169,
+        "JOB": "Bring 8 servings of Wojabi Berry Sauce to Smithfield's Saloon in Valentine.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 170,
+        "JOB": "Bring 8 servings of Wojabi Berry Sauce to the General Store in Strawberry.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 171,
+        "JOB": "Bring 8 servings of Wojabi Berry Sauce to the Colter Haberdashery.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 172,
+        "JOB": "Bring 8 servings of Wojabi Berry Sauce to the Saloon in Tumbleweed.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 173,
+        "JOB": "Bring 5 Boiled Potatoes to the Jade Dragon in Saint Denis.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 174,
+        "JOB": "Bring 6 Cooked Poultry with Oregano to the campsite in Roanoake.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 175,
+        "JOB": "Bring 6 Cooked Poultry with Oregano to the market in Saint Denis.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 176,
+        "JOB": "Bring 6 Cooked Poultry with Oregano to Keane's Saloon in Valentine.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 177,
+        "JOB": "Bring 6 Cooked Poultry with Oregano to Adler Ranch.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 178,
+        "JOB": "Bring 6 Cooked Poultry with Oregano to Manzanita Post.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 179,
+        "JOB": "Bring 2 Berry Pies to the General Store in Saint Denis.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 180,
+        "JOB": "Bring 2 Berry Pies to the General Store in Valentine.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 181,
+        "JOB": "Bring 8 Corn on the Cob to Keane's Saloon in Valentine.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 182,
+        "JOB": "Bring 3 Gift Boxes to the Braithewaite Manor near Rhodes.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 183,
+        "JOB": "Deliver 10 Units of Coal to the Strawberry Sheriff's Office.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 184,
+        "JOB": "Bring 15 Sections of Sugar Cane to the Tree in Rhodes.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 185,
+        "JOB": "Deliver 5 Bowls of Fish Stew to the Saint Denis Soup Kitchen.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 186,
+        "JOB": "Deliver 2 Gold Bars to Cattail Pond.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 187,
+        "JOB": "Deliver Ice Blocks to 3 customers.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 188,
+        "JOB": "Deliver Crates of 10 Bottles of Milk each to Eight customers.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 189,
+        "JOB": "Deliver 2 Gold Bars to the Van Horn Depot.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 190,
+        "JOB": "Bring 4 Cat Carcasses to the butcher in Saint Denis.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 191,
+        "JOB": "Transport Ice Blocks to four businesses and homes across Saint's Crossing.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 192,
+        "JOB": "4 Milk Lovers are Requesting a Crate of 10 Milk Each.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 193,
+        "JOB": "Deliver 30 units of Raw Fluorite to the Valentine freight depot.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 194,
+        "JOB": "Drop off Crates of 20 Oranges to four customers in Blackwater and west.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 195,
+        "JOB": "Deliver Crates of 5 Bottles of Milk each to 4 customers.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 196,
+        "JOB": "Deliver 40 units of Raw Fluorite to Annesburg docks.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 197,
+        "JOB": "Bring 3 Adult Gator Carcasses to the butcher in Saint Denis.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 198,
+        "JOB": "Deliver crates of 10 oranges each to 8 customers from Saint Denis to Big Valley.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 199,
+        "JOB": "Deliver 2 Gold Bars to the Tumbleweed General Store.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 200,
+        "JOB": "Deliver 6 pieces of Chopped Wood to the Colter Freight Depot.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 201,
+        "JOB": "Deliver Ice Blocks to Three businesses and homes across Saint's Crossing.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 202,
+        "JOB": "Deliver 20 units of Coal to Bacchus Station.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 203,
+        "JOB": "Deliver 20 units of Coal to Benedict Point.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 204,
+        "JOB": "Deliver 15 Bottles of Milk in Crates to Lake Don Julio and Tumbleweed.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 205,
+        "JOB": "Deliver Ice Blocks to four destinations across the Crossing.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 206,
+        "JOB": "Deliver Crates of 10 Bottles of Milk each to 4 customers in New Austin.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 207,
+        "JOB": "Bring Crates of 10 Bank Bonds to two stops.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 208,
+        "JOB": "Bring 2 Boar Carcasses to the butcher in Rhodes.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 209,
+        "JOB": "Deliver 10 pieces of Chopped Wood to Adler Ranch northeast of Colter.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 210,
+        "JOB": "Deliver 3 servings of Wild One Punch to the Bastille in Saint Denis.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 211,
+        "JOB": "Deliver 6 Chopped Wood to Bacchus Station.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 212,
+        "JOB": "Deliver 1 Gold Bar to a Basement near Benedict Point.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 213,
+        "JOB": "Deliver Ice Blocks to 4 stops. Final stop Wapiti Village.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 214,
+        "JOB": "Crates containing 15 bottles to be delivered to 6 stops along route.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 215,
+        "JOB": "Deliver Crates of 10 Coal each to 4 locations from New Elizabeth to the Ridge.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 216,
+        "JOB": "Deliver Ice Blocks to five destinations. Final stop Manzanita Post.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 217,
+        "JOB": "Deliver crates containing 15 Milk Bottles to three destinations.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 218,
+        "JOB": "Bring crates of 5 Bank Bonds to three stops.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 1,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 219,
+        "JOB": "Deliver 10 Vials of Blood to the Witch's Hut.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 220,
+        "JOB": "Bring 3 Pronghorn Carcasses to the Blackwater Butcher.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 221,
+        "JOB": "Help Drive 3 Cattle to MacLean's Ranch.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 1
+    },
+    {
+        "INDEX": 222,
+        "JOB": "Logs are needed in the West. Deliver to 5 locations with haste.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 223,
+        "JOB": "Bring 3 Gizzards to Emerald Ranch.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 224,
+        "JOB": "Bring 3 Gizzards to the Soup Kitchen in Saint Denis.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 225,
+        "JOB": "Bring 3 Gizzards to the Parlour House in Rhodes.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 226,
+        "JOB": "Bring 8 servings of Wojabi Berry Sauce to Armadillo.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 227,
+        "JOB": "Bring 5 Boiled Potatoes to the campsite in Valentine.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 228,
+        "JOB": "Bring 2 Berry Pies to the Blackwater Saloon.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 229,
+        "JOB": "Bring 8 Corn on the Cob to the General Store in Blackwater.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 230,
+        "JOB": "Bring 3 Gift Boxes to the Ranch House in Cholla Springs.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 231,
+        "JOB": "Deliver 10 Units of Coal to the St. Denis Police Station.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 232,
+        "JOB": "Deliver 20 units of Coal to Wallace Station.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 233,
+        "JOB": "2 Customers are in need of rapid delivery of planks.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 234,
+        "JOB": "Travel north towards Colter and make Four drop-offs of Small Logs.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 235,
+        "JOB": "Deliver crates containing 15 Milk Bottles to four destinations.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 236,
+        "JOB": "Deliver Planks to 4 locations in New Austin.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 237,
+        "JOB": "Drop-off crates containing 20 Oranges to 4 customers. Final stop Colter.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 238,
+        "JOB": "Deliver 20 Crated Oranges to 3 customers in the Southeast.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 239,
+        "JOB": "Deliver 1 Gold Bar to the Roanoke Train Construction.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 240,
+        "JOB": "Deliver Crates of 15 Chopped Wood each to five locations between Cumberland Forest and the Great Plains.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 241,
+        "JOB": "Requesting Delivery of 5 Crated Bottles Of Milk to 2 Customers.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 242,
+        "JOB": "Deliver 10 Saint's Sinners to the Rhodes Saloon.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 1,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 243,
+        "JOB": "Bring 60 Rolled Cigarettes to the Armadillo Train Station.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 244,
+        "JOB": "Deliver 2 Gold Bars to a House in Lemoyne.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 245,
+        "JOB": "Deliver Blocks of Ice to five customers in the Grizzlies.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 246,
+        "JOB": "Bring 2 Pieces of Junk to a House Near Blackwater.",
+        "RAW_MATERIAL": 0,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 247,
+        "JOB": "Deliver 1 Gold Bar to Dakota Ranch.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 248,
+        "JOB": "Haul Ice Blocks to 4 stops. Final stop Annesburg.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 249,
+        "JOB": "Bring 3 Catahoula Cur Carcasses to the butcher in Armadillo.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 0,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    },
+    {
+        "INDEX": 250,
+        "JOB": "With haste, kindly deliver 30 units of Raw Ammolite to the Annesburg Gunsmith.",
+        "RAW_MATERIAL": 1,
+        "REQUIRES_WAGON": 1,
+        "REQUIRES_RECIPE": 0,
+        "IS_CRIMINAL": 0,
+        "IS_ACTIVITY": 0
+    }
+]
+

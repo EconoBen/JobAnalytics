@@ -1,0 +1,92 @@
+I am going to pass you a list of activities able to be done in the video game Red Dead Redemption 2. I'd like to categorize the contents of these jobs so I can more easily create columns next to them in a spreadsheet adding metadata. Here's how we'll do it: You'll scan the contents of each job. You'll return to me a JSON of the form:
+
+{
+INDEX: ...,
+JOB: .... ,
+RAW_MATERIAL: (0 = no / 1 = no),
+REQUIRES_WAGON: (0 = no / 1 = no),
+REQUIRES_RECIPE: (0 = no / 1 = no),
+IS_CRIMINAL: (0 = no / 1 = no),
+IS_ACTIVITY: (0 = no / 1 = no),
+}
+
+Here's the definition of each category:
+RAW_MATERIAL: Determines if the job involves raw materials (e.g., bank bonds, carcasses, chopped wood).
+REQUIRES_WAGON: Determines if the job requires a wagon (e.g., crates of items, large deliveries).
+REQUIRES_RECIPE: Determines if the job requires a recipe (e.g., boiled potatoes).
+IS_CRIMINAL: Determines if the job is criminal in nature (e.g., bank bonds).
+IS_ACTIVITY: Determines if the job is an activity (e.g., herding cattle, chopping wood).
+
+For instance, you'd receive:
+1 "Bring a Crate of 5 Bank Bonds to two stops."
+
+Would output:
+
+{
+INDEX: 1,
+JOB: "Bring a Crate of 5 Bank Bonds to two stops.",
+RAW_MATERIAL: 1,
+REQUIRES_WAGON: 1,
+REQUIRES_RECIPE: 0,
+IS_CRIMINAL: 1,
+IS_ACTIVITY: 0,
+}
+
+Here's why: bank bonds (gold, moonshine, etc) are not civilian activities, they are criminal. Bank bonds are raw in RDR2, you find them in banks as is. Two travel to two stops with a crate you need a wagon. Is activity is 0 because the job isn't something like doing chores or herding cattle. Make sense? Here's an explanation of all the categories:
+
+
+
+
+Here are 50 jobs, return me their JSONs standardized (in a list of JSONS)
+
+
+101	Deliver Ice Blocks to four businesses and homes across Saint's Crossing
+102	Deliver Planks to 4 customers.
+103	Deliver 20 Oranges in crates to Caliga Hall and Valentine Saloon
+104	Flatneck to the Bayou. Six deliveries of Small Logs needed.
+105	Bring Crates of 5 Bank Bonds to three stops
+106	Bring 2 Ringneck Pheasant Carcasses to the butcher in Wapiti Village
+107	Drop off crates of 15 Oranges at 5 customers
+108	Deliver 20 units of Coal to Riggs Station
+109	Bring Crates of 5 Bank Bonds to four stops.
+110	Bring Crates of 15 Bank Bonds to four stops.
+111	Deliver Small Logs to 6 customers. Last stop Tumbleweed.
+112	Bring 3 Gift Boxes to the Mayor's Manor in St.Denis
+113	Bring 10 servings of French Bread to the Saint Denis Soup Kitchen
+114	Drop 5 Rats 'round back of the Barber
+115	Deliver 1 Gold Bar to the ship at Thieves Landing
+116	Bring 2 Armadillo Carcasses to the Blackwater Butcher
+117	5 Hearty Bowls of Potato Soup to be brought to the Valentine Church
+118	5 Bundles of Brownies to be delivered to the Valentine Church
+119	Deliver 3 Gold Bars to the Abandoned Mansion near Van Horn
+120	Deliver a Small Log to Pronghorn Ranch and the Strawberry Workshop
+121	Deliver Planks to the Village of Wapiti, Grizzlies Watchtower, and Fort Brennand.
+122	Deliver Ice Blocks to four destinations. Final stop Caliga Hall
+123	Deliver 10 Bottles of Milk to 4 Customers from Armadillo to Blackwater
+124	Deliver Ice Blocks to six destinations. Final stop Manzinata Post
+125	Bring 2 Turkey Carcasses to the butcher in Saint Denis
+126	Bring 3 Gizzards to the Welcome Center in Strawberry
+127	Bring 8 Servings of Wojabi Berry Sauce to Doyle's Tavern in Saint Denis
+128	Bring 8 servings of Wojabi Berry Sauce to the camp in Rhodes
+129	Bring 5 Boiled Potatoes to the Taxidermy House in Strawberry
+130	Bring 5 Boiled Potatoes to the Caravan near Blackwater
+131	Bring 2 Berry Pies to the Welcome Center in Strawberry
+132	Bring 8 Corn on the Cob to the Haberdashery in Colter
+133	Bring 8 Corn on the Cob to Armadillo
+134	Bring 8 Corn on the Cob to the General Store in Tumbleweed
+135	Bring 3 Gift Boxes to a Small Cabin Near Owanjila
+136	Deliver 10 Units of Coal to the Armadillo Sheriff's Office
+137	Bring 3 Gift Boxes to the Cabin near Del Lobo Rock
+138	Bring 2 Pieces of Junk to a House in St.Denis
+139	Bring 5 Mint Chocolate Candies to a Cabin in Big Valley
+140	Bring 3 Cups of Hot Chocolate to the Strawberry Medical Office
+141	Deliver Ice Blocks to three businesses and homes across Saint's Crossing
+142	Bring 1 Rat to the Bridgehouse to prove you cleared them
+143	Deliver Ice Blocks to four destinations. Final stop Tumbleweed
+144	Help Drive 3 Cattle from Carmody Dell to Hill Haven.
+145	3 Deliveries of Small Logs needed in the New Hanover area
+146	Bring a Diamond to the Warden's Office
+147	Deliver 50 gatherings of Dirt and Pebbles to Armadillo
+148	Help Drive 3 Cattle to Pleasance Homestead
+149	Deliver Crates of 10 Oranges Each to Van Horn and Annesburg
+150	Bring 3 Gift Boxes to the Wheat Farm near Emerald Ranch
